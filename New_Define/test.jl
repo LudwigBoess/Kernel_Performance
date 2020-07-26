@@ -1,6 +1,6 @@
 using Pkg
-Pkg.instantiate()
 Pkg.activate(".")
+Pkg.instantiate()
 
 using BenchmarkTools
 
