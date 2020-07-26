@@ -3,7 +3,7 @@ Pkg.activate(".")
 Pkg.instantiate()
 
 using BenchmarkTools
-import SPHtoGrid
+using SPHtoGrid
 
 k = WendlandC6()
 
